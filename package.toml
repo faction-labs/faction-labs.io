@@ -1,0 +1,18 @@
+id = "faction-labs.io"
+base = "caddy:20170223"
+
+[build]
+script = '''
+#!/bin/ash
+
+cp -r /run/context /data
+cat << EOF > /etc/caddyfile
+:80
+gzip
+root /data
+'''
+
+[update]
+script = '''
+#!/bin/ash
+'''

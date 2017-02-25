@@ -1,0 +1,20 @@
+languageCode = "en-us"
+title = "Faction Labs"
+baseurl = "http://faction-labs.io/"
+theme = "default"
+
+[params]
+  title = "Faction Labs"
+  description = "A team of highly skilled engineers providing solutions ranging from infrastructure to digital media."
+  logo = "fa-flask"
+  copyright = "Faction Labs"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "https://twitter.com/faction_labs"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/faction-labs"
